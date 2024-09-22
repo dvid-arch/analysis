@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { testdata, ata } from './data/db.js'
 import './App.css'
-import GameBox from './components/gameBox';
+import GameBox from './components/gameBox.jsx';
 import GameBoxAnalysis from './pages/GameBoxAnalysis.jsx';
 import GameToWin from './pages/GameToWin.jsx';
 
